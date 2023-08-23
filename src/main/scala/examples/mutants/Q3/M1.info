@@ -1,0 +1,1 @@
+M1_L58_eq_neq: row(13) /*i_manufact_id*/ == MANUFACT.toString

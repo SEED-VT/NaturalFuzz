@@ -1,0 +1,1 @@
+M6_L127_gt_neq: i_current_price > 1.2 * subquery2_result

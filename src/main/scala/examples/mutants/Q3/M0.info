@@ -1,0 +1,1 @@
+M0_L23_eq_lt: row(8)/*d_moy*/ == MONTH.toString

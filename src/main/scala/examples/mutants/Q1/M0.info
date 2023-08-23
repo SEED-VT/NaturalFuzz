@@ -1,0 +1,1 @@
+M0_L26_eq_lt: row(6).toInt == YEAR
