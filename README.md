@@ -40,7 +40,7 @@ For `PROGRAM_NAME` you may pass in the name of any scala file under `src/main/sc
 
 We will show you how to run the tool for Q1. To fuzz `Q1` for 5 minutes, run:
 ```
-./run-fuzzer.sh Q1 300 data/{store_returns,data_dim,store,customer}
+./run-fuzzer.sh Q1 300 data/{store_returns,date_dim,store,customer}
 ```
 
 
