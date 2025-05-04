@@ -15,6 +15,8 @@ object DynamicClassLoader {
       case ex: Exception =>
         System.err.println(s"An error occurred while invoking the method: $ex")
         System.err.println(ex.getStackTrace.mkString("\n"))
+        System.err.println("---- CAUSED BY ----")
+        ex.getCause.printStackTrace()
         None
     }
   }
