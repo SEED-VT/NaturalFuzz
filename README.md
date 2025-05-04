@@ -34,7 +34,7 @@ cd NaturalFuzz
 ```
 The following is the template command for running any of the benchmark programs:
 ```
-./run-fuzzer.sh <PROGRAM_NAME> <DURATION> <DATASETPATH_1> ... <DATASETPATH_N>
+./run-fuzzer.sh <PROGRAM_NAME> <OUTPUT_DIR_NAME> <DURATION> <DATASETPATH_1> ... <DATASETPATH_N>
 ```
 For `PROGRAM_NAME` you may pass in the name of any scala file under `src/main/scala/examples/tpcds/` after omitting the extension
 
