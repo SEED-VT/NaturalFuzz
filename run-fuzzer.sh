@@ -5,8 +5,8 @@
 
 #export JAVA_HOME=~/.jdks/corretto-1.8.0_332
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
-sudo update-alternatives --set java $JAVA_HOME/bin/java || exit 1
-sudo update-alternatives --set javac $JAVA_HOME/bin/javac || exit 1
+# sudo update-alternatives --set java $JAVA_HOME/bin/java || exit 1
+# sudo update-alternatives --set javac $JAVA_HOME/bin/javac || exit 1
 exitScript() {
     mv ~/jazzerresults src/main/scala
     exit 1;
